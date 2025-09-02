@@ -90,7 +90,6 @@ const LoginPage: React.FC<LoginPageProps> = ({ onLogin }) => {
 
                 <div className='flex items-center justify-between'>
                     <div className='text-xs text-text-light-minor'>
-                        Use <code className='bg-black/50 px-1 rounded'>admin@neugenai.io</code> (pw: admin123)
                     </div>
                     <a href="#" className="text-sm font-medium text-primary hover:text-secondary">Forgot Password?</a>
                 </div>
