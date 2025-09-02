@@ -28,10 +28,7 @@ const LoginPage: React.FC<LoginPageProps> = ({ onLogin }) => {
     <div className="min-h-screen bg-brand-dark flex">
       {/* Left Panel - Image and Logo */}
       <div className="w-1/2 relative hidden lg:flex flex-col items-center justify-center text-center p-8">
-        <div 
-          className="absolute inset-0 bg-cover bg-center filter blur-sm scale-105"
-          style={{ backgroundImage: "url('https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=2684&auto=format&fit=crop')" }}
-        ></div>
+       
         <div className="absolute inset-0 bg-black/60"></div>
         <div className="relative text-white">
             <div className="w-20 h-20 bg-primary rounded-xl flex items-center justify-center text-text-on-primary font-bold text-5xl mb-6 mx-auto">
